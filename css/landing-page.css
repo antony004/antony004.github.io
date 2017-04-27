@@ -1,0 +1,316 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar-static-top {
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #424242;
+}
+
+.navbar-brand {
+    margin-top: -10px;
+}
+
+.navbar-nav.center {
+    text-align: center;
+    padding-left: 430px;
+    width: 100%;
+}
+
+.topnav {
+    font-size: 14px;
+    
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#webicon {
+    padding: 2em;
+}
+
+#cameraicon {
+    padding: 2em;
+}
+
+#enticon {
+    padding: 2em;
+}
+.photography-samples p{
+    text-align: center;
+    color: #263238;
+}
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+    margin-top: -20px;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+.imagecontainer{
+     margin: 65px auto;
+     display:block;
+     width:200px;
+     height:200px;
+     overflow:hidden;
+     transform: rotate(45deg);
+     -ms-transform: rotate(45deg); /* IE 9 */
+     -webkit-transform: rotate(45deg); /* Safari and Chrome */
+     position:relative;
+
+     /* non-essential styling */
+     -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .05);
+     box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .05);
+
+}
+.imagecontainer img{
+     transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg); /* IE 9 */
+     -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+      width: 240%;
+     position:absolute;
+     left: -116px;
+     top: -65px;
+}
+footer {
+    text-align: center;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+#back-to-top {
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+}
+
+#back-to-top a {
+    color: red;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:991px) {
+    .portfolio-item a img{
+       padding-left: 100px;
+    }
+    
+    .text-center h3{
+        text-align: center;
+    }
+    
+    .navbar-nav.center {
+        text-align: center;
+        padding-left: 333px;
+    }
+    
+    .navbar-header {
+        padding-bottom: 10px;
+    }
+    #webicon {
+        padding-left: 8em;
+    }
+
+    #cameraicon {
+        padding-left: 8em;
+    }
+
+    #enticon {
+        padding-left: 8em;
+    }
+}
+
+@media(max-width:792px) {
+    .portfolio-item a img{
+        width: 100%;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .portfolio-item a img{
+        padding-left: 0;
+    }
+    
+    .navbar-nav.center {
+        text-align: center;
+        padding-left: 220px;
+    }
+    
+    .navbar-header {
+        padding-bottom: 10px;
+    }
+     #webicon {
+        padding: 2em;
+    }
+
+    #cameraicon {
+        padding: 2em;
+    }
+
+    #enticon {
+        padding: 2em;
+    }
+    #back-to-top {
+        position: absolute;
+        bottom: 70px;
+        right: 7px;
+    }
+}
+
+@media(max-width:500px) {
+    
+    .navbar-nav.center {
+        text-align: center;
+        padding-left: 120px;
+    }
+    
+    .navbar-header {
+        padding-bottom: 10px;
+    }
+}
+
