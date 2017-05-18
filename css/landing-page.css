@@ -14,12 +14,17 @@ html {
 body,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.box h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
 }
 
 .navbar-static-top {
@@ -95,6 +100,9 @@ h6 {
     text-align: center;
     color: #263238;
 }
+.photo-site {
+    color: #1976d2;
+}
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -115,6 +123,10 @@ h6 {
 
 .section-heading {
     margin-bottom: 30px;
+}
+
+.CS {
+    color: #388e3c;
 }
 
 .section-heading-spacer {
@@ -166,9 +178,10 @@ h6 {
      -ms-transform: rotate(-45deg); /* IE 9 */
      -webkit-transform: rotate(-45deg); /* Safari and Chrome */
       width: 240%;
+      height: 150%;
      position:absolute;
-     left: -116px;
-     top: -65px;
+     left: -90px;
+     top: -101px;
 }
 footer {
     text-align: center;
@@ -207,15 +220,6 @@ footer {
 
     .intro-divider {
         width: 100%;
-    }
-}
-
-
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
     }
 }
 

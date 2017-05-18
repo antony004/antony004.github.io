@@ -6,13 +6,13 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Orbitron', sans-serif; "Roboto Slab";
   font-size: 30px;
 }
 section.module p {
   margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
-  font-weight: 300;
 }
 section.module p:last-child {
   margin-bottom: 0;
@@ -25,7 +25,7 @@ section.module.parallax {
   height: 980px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,6 +79,7 @@ section.module.parallax.contact h3 {
 .email-me{
     background: rgba(255, 204, 128,0.5);
     width: 55%;
+    font-family: 'Oswald', sans-serif;
 }
 section.module.parallax-1 {
   background-image: url("../img/other/chicago.jpg");
@@ -115,7 +116,7 @@ section.module.parallax-4 {
     .email-me {
         width: 70%;
 }
-@media(max-width:767px) {
+    @media(max-width:767px) {
     section.module.parallax.web h2 {
         font-size: 80px;
         font-weight: 500;
@@ -137,6 +138,9 @@ section.module.parallax-4 {
     }
 }
 @media(max-width:500px) {
+    section.module.parallax {
+        background-attachment: scroll;
+    }
     section.module.parallax.web h2 {
         font-size: 58px;
         line-height: 675px;
